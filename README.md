@@ -2,7 +2,7 @@
 
 detection - yolov5
 
-color recognition - domain color calculation for buttom half of detection box
+color recognition - dominant color calculation for buttom half of detection box
 
 ## output
 
