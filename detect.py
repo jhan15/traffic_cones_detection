@@ -11,7 +11,7 @@ from models.experimental import attempt_load
 from utils.datasets import LoadStreams, LoadImages
 from utils.general import check_img_size, check_requirements, check_imshow, non_max_suppression, apply_classifier, \
     scale_coords, xyxy2xywh, strip_optimizer, set_logging, increment_path
-from utils.plots import plot_one_box, domain_color
+from utils.plots import plot_one_box, dominant_color
 from utils.torch_utils import select_device, load_classifier, time_synchronized
 
 
@@ -109,7 +109,7 @@ def detect(save_img=False):
                             f.write(('%g ' * len(line)).rstrip() % line + '\n')
 
                     if save_img or view_img:  # Add bbox to image
-                        color, color_val, h = domain_color(xyxy, im0)
+                        color, color_val, h = dominant_color(xyxy, im0)
                         label = f'{color} {names[int(cls)]}'
                         plot_one_box(xyxy, im0, label=label, color=color_val, line_thickness=3)
 
