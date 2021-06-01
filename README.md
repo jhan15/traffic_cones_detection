@@ -1,6 +1,6 @@
 # traffic_cones_detection
 
-It's a project to detect traffic cones and recognize the colors as well. I used [yolov5](https://github.com/ultralytics/yolov5) to train and detect cones.
+It's a project to detect traffic cones and recognize the colors as well. I used [yolov5](https://github.com/ultralytics/yolov5) to train and detect cones. Furthermore, I used k-means to determine the dominant color to classify cone colors. Currently, the supported colors are red, yellow, green, and blue. Other colors are classified as unknown.
 
 ## Dataset and annotation
 
