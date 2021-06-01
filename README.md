@@ -30,6 +30,12 @@ You should use the weights I trained in [model](https://github.com/jhan15/traffi
 
 ## Result
 
+#### Video
+
+I clipped a video from one research project of [ETH Zurich](https://www.trace.ethz.ch/publications/2019/TrafficCone/) to test the peroformance.
+
+![cone1](https://user-images.githubusercontent.com/62132206/120334300-d1a31e80-c2f0-11eb-962e-17c4d5481917.gif)
+
 #### Images
 
 <img src="https://user-images.githubusercontent.com/62132206/118353597-5d822000-b567-11eb-9e09-dd39bc877487.jpeg" width="600">
@@ -39,9 +45,3 @@ You should use the weights I trained in [model](https://github.com/jhan15/traffi
 <img src="https://user-images.githubusercontent.com/62132206/118353625-75f23a80-b567-11eb-98c5-919eba29bdda.jpeg" width="600">
 <img src="https://github.com/jhan15/traffic_cones_detection/blob/master/images/3.jpeg" width="600">
 <img src="https://github.com/jhan15/traffic_cones_detection/blob/master/images/6.jpeg" width="600">
-
-#### Video
-
-I clipped a video from one research project of [ETH Zurich](https://www.trace.ethz.ch/publications/2019/TrafficCone/) to test the peroformance.
-
-![cone1](https://user-images.githubusercontent.com/62132206/120334300-d1a31e80-c2f0-11eb-962e-17c4d5481917.gif)
