@@ -44,4 +44,4 @@ You should use the weights I trained in [model](https://github.com/jhan15/traffi
 
 I clipped a video from one research project of [ETH Zurich](https://www.trace.ethz.ch/publications/2019/TrafficCone/) to test the peroformance.
 
-![cone1](https://user-images.githubusercontent.com/62132206/120332070-aae3e880-c2ee-11eb-9f67-f3baec216ac5.gif)
+![cone1](https://user-images.githubusercontent.com/62132206/120334300-d1a31e80-c2f0-11eb-962e-17c4d5481917.gif)
