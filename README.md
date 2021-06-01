@@ -4,7 +4,7 @@ It's a project to detect traffic cones and recognize the colors as well. I used 
 
 ## Dataset and annotation
 
-I used a self-collected cone dataset. Thus, I also need to annotate the images myself. Here, I utilized an online annotation website [Roboflow](https://roboflow.com/), it provides services such as annotation, pre-processig, and augmentation. However, it has limitation of 1,000 source images and 5,000 generated images for free users.
+I used a self-collected cone dataset with 303 cone images. It's not a perfect practice because it's a small dataset. I also need to annotate the images myself. Here, I utilized an online annotation website [Roboflow](https://roboflow.com/), it provides services such as annotation, pre-processig, and augmentation. However, it has limitation of 1,000 source images and 5,000 generated images for free users.
 
 ## Model
 
