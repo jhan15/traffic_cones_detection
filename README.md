@@ -16,7 +16,7 @@ Model
 
 ## Usage
 
-You can try the codes in colab if you are interested in.
+You can try the codes in colab if you are interested in. For prediction, I customized some files of yolov5, which are located in [utils](https://github.com/jhan15/traffic_cones_detection/tree/master/utils) folder, you need to use them when trying the codes.
 
 - Train [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhan15/traffic_cones_detection/blob/master/train.ipynb)
 
