@@ -1,10 +1,17 @@
-# traffic_cones_detection_color_recognition
+# traffic_cones_detection
 
-detection - yolov5
+It's a project to detect traffic cones and recognize the colors as well.
 
-color recognition - dominant color calculation for buttom half of detection box
+## Dataset and annotation
 
-## output
+I used a self-collected cone dataset. Thus, I also need to annotate the images myself. Here, I utilized an online annotation website [Roboflow](https://roboflow.com/), it provides services such as annotation, pre-processig, and augmentation. However, it has limitation of 1,000 source images and 5,000 generated images for free users.
+
+## Model
+
+cone detection - yolov5
+color recognition - dominant color of buttom half of the detection box
+
+## Result
 
 ![2](https://user-images.githubusercontent.com/62132206/118353597-5d822000-b567-11eb-9e09-dd39bc877487.jpeg)
 
