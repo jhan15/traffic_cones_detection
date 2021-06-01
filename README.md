@@ -29,3 +29,5 @@ You can try the codes in colab if you are interested in. For prediction, I custo
 <img src="https://user-images.githubusercontent.com/62132206/118353609-683cb500-b567-11eb-8dd3-9624d8382d5f.jpeg" width="500">
 <img src="https://user-images.githubusercontent.com/62132206/118353614-6a9f0f00-b567-11eb-81bd-bc4234948a0e.jpeg" width="500">
 <img src="https://user-images.githubusercontent.com/62132206/118353625-75f23a80-b567-11eb-98c5-919eba29bdda.jpeg" width="500">
+<img src="https://github.com/jhan15/traffic_cones_detection/blob/master/images/3.jpeg" width="500">
+<img src="https://github.com/jhan15/traffic_cones_detection/blob/master/images/6.jpeg" width="500">
