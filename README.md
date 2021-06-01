@@ -8,8 +8,11 @@ I used a self-collected cone dataset. Thus, I also need to annotate the images m
 
 ## Model
 
-cone detection - yolov5
-color recognition - dominant color of buttom half of the detection box
+```bash
+Model
+├── detection: yolov5s
+└── color recognition: dominant color of buttom half of the detection box
+```
 
 ## Result
 
