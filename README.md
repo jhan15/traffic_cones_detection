@@ -1,6 +1,6 @@
 # traffic_cones_detection
 
-It's a project to detect traffic cones and recognize the colors as well.
+It's a project to detect traffic cones and recognize the colors as well. I used [yolov5](https://github.com/ultralytics/yolov5) for cone detection.
 
 ## Dataset and annotation
 
