@@ -16,11 +16,17 @@ Model
 
 ## Usage
 
-You can try the codes in colab if you are interested in. For prediction, I customized some files of yolov5, which are located in [utils](https://github.com/jhan15/traffic_cones_detection/tree/master/utils) folder, you need to use them when trying the codes.
+You can try the codes in colab if you are interested in. 
 
-- Train [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhan15/traffic_cones_detection/blob/master/train.ipynb)
+#### Train
 
-- Predict [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhan15/traffic_cones_detection/blob/master/predict.ipynb)
+If you have an annotated dataset, you can train directly use train.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhan15/traffic_cones_detection/blob/master/train.ipynb)
+
+#### Prediction
+
+If you want to detect cones directly, use predict.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhan15/traffic_cones_detection/blob/master/predict.ipynb)
+
+You should use the weights I trained in [model](https://github.com/jhan15/traffic_cones_detection/tree/master/model). Besides, I customized some files of yolov5, which are located in [utils](https://github.com/jhan15/traffic_cones_detection/tree/master/utils) folder, you need to use them as well.
 
 ## Result
 
