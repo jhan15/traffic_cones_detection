@@ -24,6 +24,8 @@ You can try the codes in colab if you are interested in. For prediction, I custo
 
 ## Result
 
+<img src="https://user-images.githubusercontent.com/62132206/118353597-5d822000-b567-11eb-9e09-dd39bc877487.jpeg" width="300">
+
 ![2](https://user-images.githubusercontent.com/62132206/118353597-5d822000-b567-11eb-9e09-dd39bc877487.jpeg)
 
 ![5](https://user-images.githubusercontent.com/62132206/118353605-62df6a80-b567-11eb-9bc0-4983853664b0.jpeg)
