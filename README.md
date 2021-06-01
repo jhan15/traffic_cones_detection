@@ -1,3 +1,6 @@
+[![GitHub issues](https://img.shields.io/github/issues/jhan15/traffic_cones_detection)](https://github.com/jhan15/traffic_cones_detection/issues)
+![GitHub last commit](https://img.shields.io/github/last-commit/jhan15/traffic_cones_detection?color=ff69b4)
+
 # traffic_cones_detection
 
 It's a project to detect traffic cones and recognize the colors as well. I used [yolov5](https://github.com/ultralytics/yolov5) to train and detect cones. Furthermore, I used k-means to determine the dominant color to classify cone color. Currently, the supported colors are red, yellow, green, and blue. Other colors are classified as unknown.
