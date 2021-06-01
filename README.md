@@ -1,6 +1,6 @@
 # traffic_cones_detection
 
-It's a project to detect traffic cones and recognize the colors as well. I used [yolov5](https://github.com/ultralytics/yolov5) for cone detection.
+It's a project to detect traffic cones and recognize the colors as well. I used [yolov5](https://github.com/ultralytics/yolov5) to train and detect cones.
 
 ## Dataset and annotation
 
@@ -13,6 +13,8 @@ Model
 ├── detection: yolov5s
 └── color recognition: dominant color of buttom half of the detection box
 ```
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jhan15/traffic_cones_detection/blob/master/train.ipynb)
 
 ## Result
 
