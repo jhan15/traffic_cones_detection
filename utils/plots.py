@@ -73,7 +73,7 @@ def plot_one_box(x, img, color=None, label=None, line_thickness=3):
         cv2.putText(img, label, (c1[0], c1[1] - 2), 0, tl / 3, tcolor, thickness=tf, lineType=cv2.LINE_AA)
 
 
-def dominant_color(x, img):
+def domain_color(x, img):
     mid_y = int((x[1] + x[3]) / 2)
     box = img[mid_y:int(x[3]), int(x[0]):int(x[2])]
     data = np.reshape(box, (-1,3))
@@ -89,7 +89,7 @@ def dominant_color(x, img):
 
     h = hsv[0,0,0]
     colors = {'red': [0,0,255], 'yellow': [0,255,255], 'green': [0,255,0],
-            'blue': [255,0,0], 'purple': [255,51,153], 'pink': [255,51,255]}
+            'blue': [255,0,0], 'unknown': [50,50,50]}
     if h < 16:
         color = 'red'
     elif h < 35:
@@ -98,10 +98,8 @@ def dominant_color(x, img):
         color = 'green'
     elif h < 130:
         color = 'blue'
-    elif h < 140:
-        color = 'purple'
     elif h < 172:
-        color = 'pink'
+        color = 'unknown'
     else:
         color = 'red'
 
