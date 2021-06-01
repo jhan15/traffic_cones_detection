@@ -10,7 +10,7 @@ I used a self-collected cone dataset. Thus, I also need to annotate the images m
 
 ```bash
 Model
-├── detection: yolov5s
+├── cone detection: yolov5s
 └── color recognition: dominant color
 ```
 
