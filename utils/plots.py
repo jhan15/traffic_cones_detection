@@ -73,7 +73,7 @@ def plot_one_box(x, img, color=None, label=None, line_thickness=3):
         cv2.putText(img, label, (c1[0], c1[1] - 2), 0, tl / 3, tcolor, thickness=tf, lineType=cv2.LINE_AA)
 
 
-def domain_color(x, img):
+def dominant_color(x, img):
     mid_y = int((x[1] + x[3]) / 2)
     box = img[mid_y:int(x[3]), int(x[0]):int(x[2])]
     data = np.reshape(box, (-1,3))
@@ -83,8 +83,8 @@ def domain_color(x, img):
     flags = cv2.KMEANS_RANDOM_CENTERS
     compactness,labels,centers = cv2.kmeans(data,1,None,criteria,10,flags)
 
-    domain = centers[0].astype(np.int32)
-    bgr = np.uint8([[domain]])
+    dominant = centers[0].astype(np.int32)
+    bgr = np.uint8([[dominant]])
     hsv = cv2.cvtColor(bgr, cv2.COLOR_BGR2HSV)
 
     h = hsv[0,0,0]
