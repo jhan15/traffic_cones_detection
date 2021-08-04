@@ -14,7 +14,7 @@ I used a self-collected cone dataset with 303 cone images. It's not a perfect pr
 ```bash
 Model
 ├── cone detection: yolov5s
-└── color recognition: dominant color
+└── color recognition: dominant color (k-means)
 ```
 
 ## Usage
